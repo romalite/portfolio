@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-logo">Roman Hrebennikov</div>
+    <ul id="nav-links">
+      <!-- Links werden per JS eingefügt -->
+    </ul>
+    <button id="theme-btn">🌙</button>
+  </nav>
+
+  <!-- Begrüßung -->
+  <section id="hero">
+    <div class="hero-text">
+      <h1>Hallo, ich bin <span id="name-typed"></span></h1>
+      <p>Als leidenschaftlicher Webentwickler und IT-Experte setze ich auf kontinuierliche Weiterbildung und das Meistern neuer technologischer Herausforderungen.</p>
+      <a href="#contacts" class="btn">Schreib mir</a>
+    </div>
+    <div class="hero-photo">
+<img src="Photo_logo.jpg" alt="Foto">
+    </div>
+  </section>
+
+  <!-- Kenntnisse -->
+  <section id="skills">
+    <h2>Meine Kenntnisse</h2>
+    <div id="skills-list">
+      <!-- Karten werden per JS eingefügt -->
+    </div>
+  </section>
+
+  <!-- Projekte -->
+  <section id="projects">
+    <h2>Meine Projekte</h2>
+    <div id="projects-list">
+      <!-- Karten werden per JS eingefügt -->
+    </div>
+  </section>
+
+  <!-- Produktkarte -->
+  <section id="product">
+    <h2>Beispiel einer Produktkarte</h2>
+    <div id="product-card">
+      <!-- Wird per JS eingefügt -->
+    </div>
+  </section>
+
+  <!-- Kontakt -->
+  <section id="contacts">
+    <h2>Kontakt</h2>
+    <form id="contact-form">
+      <input type="text"  id="form-name"    placeholder="Dein Name"   required />
+      <input type="email" id="form-email"   placeholder="E-Mail"      required />
+      <textarea           id="form-message" placeholder="Nachricht"   required></textarea>
+      <button type="submit" class="btn">Absenden</button>
+    </form>
+    <p id="form-result"></p>
+  </section>
+
+  <footer>
+    <p>Selbst gemacht, 2026 🙂</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
