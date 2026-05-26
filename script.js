@@ -122,19 +122,19 @@ let projects = [
     bg:    "#e0f2fe",
     name:  "Online-Shop",
     desc:  "Einfacher Shop mit HTML/CSS/JS und Warenkorb",
-    link:  "#"
+    link:  "shop.html"
   },
   {
     emoji: "📋",
     bg:    "#dcfce7",
-    name:  "To-Do-App",
+    name:  "Still in progress..",
     desc:  "Aufgabenliste mit Speicherung im localStorage",
     link:  "#"
   },
   {
     emoji: "🌤",
     bg:    "#fef9c3",
-    name:  "Wetter-Widget",
+    name:  "Still in progress..",
     desc:  "Zeigt das Wetter per Stadtname über eine API an",
     link:  "#"
   }

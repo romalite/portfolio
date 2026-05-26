@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopWave — Online Shop</title>
+  <link rel="stylesheet" href="shop.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-logo">ShopWave</div>
+    <ul id="nav-links">
+      <!-- per JS eingefügt -->
+    </ul>
+    <div class="nav-right">
+      <button id="theme-btn">🌙</button>
+      <button id="cart-btn">🛒 <span id="cart-count">0</span></button>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section id="hero">
+    <div class="hero-text">
+      <p class="hero-tag">Neu eingetroffen ✨</p>
+      <h1>Technik, die<br>begeistert</h1>
+      <p>Entdecke unsere neuesten Produkte zu unschlagbaren Preisen.</p>
+      <a href="#products" class="btn">Jetzt shoppen</a>
+    </div>
+    <div class="hero-banner">🛍️</div>
+  </section>
+
+  <!-- Kategorien -->
+  <section id="categories">
+    <h2>Kategorien</h2>
+    <div id="categories-list">
+      <!-- per JS -->
+    </div>
+  </section>
+
+  <!-- Produkte -->
+  <section id="products">
+    <div class="products-header">
+      <h2>Alle Produkte</h2>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Alle</button>
+        <!-- weitere Filter per JS -->
+      </div>
+    </div>
+    <div id="products-list">
+      <!-- per JS -->
+    </div>
+  </section>
+
+  <!-- Warenkorb Overlay -->
+  <div id="cart-overlay" class="hidden">
+    <div id="cart-panel">
+      <div class="cart-header">
+        <h3>Warenkorb</h3>
+        <button id="cart-close">✕</button>
+      </div>
+      <div id="cart-items">
+        <!-- per JS -->
+      </div>
+      <div class="cart-footer">
+        <div class="cart-total">Gesamt: <span id="cart-total">0,00 €</span></div>
+        <button class="btn" id="checkout-btn">Zur Kasse</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="hidden"></div>
+
+  <footer>
+    <p>© 2026 ShopWave · <a href="index.html">← Zurück zum Portfolio</a></p>
+  </footer>
+
+  <script src="shop.js"></script>
+</body>
+</html>
