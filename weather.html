@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WeatherWeb</title>
+  <link rel="stylesheet" href="weather.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">WeatherWeb</div>
+    <button id="theme-btn">🌙</button>
+  </nav>
+
+  <main>
+
+    <!-- Suche -->
+    <div id="search-row">
+      <input type="text" id="city-input" placeholder="Stadt eingeben... z.B. Berlin"/>
+      <button id="search-btn" class="btn">Suchen</button>
+    </div>
+
+    <!-- Schnellzugriff Städte -->
+    <div id="quick-cities">
+      <!-- per JS -->
+    </div>
+
+    <!-- Ergebnis -->
+    <div id="weather-result" class="hidden">
+
+      <div id="weather-main">
+        <div id="weather-icon"></div>
+        <div id="weather-info">
+          <div id="weather-city"></div>
+          <div id="weather-temp"></div>
+          <div id="weather-desc"></div>
+        </div>
+      </div>
+
+      <div id="weather-details">
+        <!-- per JS -->
+      </div>
+
+      <div id="forecast">
+        <h3>5-Tage-Vorschau</h3>
+        <div id="forecast-list">
+          <!-- per JS -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Fehler -->
+    <div id="error-msg" class="hidden">
+      ⚠️ Stadt nicht gefunden. Bitte prüfe die Schreibweise.
+    </div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 WeatherWeb <a href="index.html">← Portfolio</a></p>
+  </footer>
+
+  <script src="weather.js"></script>
+</body>
+</html>

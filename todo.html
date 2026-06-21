@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TodoWeb — To-Do Liste</title>
+  <link rel="stylesheet" href="todo.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">TodoWeb</div>
+    <button id="theme-btn">🌙</button>
+  </nav>
+
+  <main>
+    <h1>Meine Aufgaben</h1>
+
+    <!-- Eingabe -->
+    <div id="input-row">
+      <input type="text" id="task-input" placeholder="Neue Aufgabe..." maxlength="100"/>
+      <select id="priority-select">
+        <option value="normal">Normal</option>
+        <option value="high">⚠️ Hoch</option>
+        <option value="low">🔵 Niedrig</option>
+      </select>
+      <button id="add-btn" class="btn">Hinzufügen</button>
+    </div>
+
+    <!-- Filter -->
+    <div id="filters">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-filter="open">Offen</button>
+      <button class="filter-btn" data-filter="done">Erledigt</button>
+    </div>
+
+    <!-- Stats -->
+    <div id="stats">
+      <!-- per JS -->
+    </div>
+
+    <!-- Liste -->
+    <ul id="task-list">
+      <!-- per JS -->
+    </ul>
+
+    <!-- Unten -->
+    <div id="list-footer">
+      <span id="tasks-left"></span>
+      <button id="clear-done-btn">Erledigte löschen</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 TodoWeb · <a href="index.html">← Portfolio</a></p>
+  </footer>
+
+  <script src="todo.js"></script>
+</body>
+</html>

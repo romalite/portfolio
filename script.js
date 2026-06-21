@@ -127,16 +127,16 @@ let projects = [
   {
     emoji: "📋",
     bg:    "#dcfce7",
-    name:  "Still in progress..",
+    name:  "Todo-List",
     desc:  "Aufgabenliste mit Speicherung im localStorage",
-    link:  "#"
+    link:  "todo.html"
   },
   {
     emoji: "🌤",
     bg:    "#fef9c3",
-    name:  "Still in progress..",
+    name:  "WeatherWeb",
     desc:  "Zeigt das Wetter per Stadtname über eine API an",
-    link:  "#"
+    link:  "weather.html"
   }
 ];
 
